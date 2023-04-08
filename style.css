@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+form{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #c5eaf8;
+    line-height: 40px;
+    border: 2px solid skyblue;
+}
+.title{
+    text-align: center;
+}
+h2{
+    border-radius: 2px;
+    font-weight: bolder;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 100;
+    color: #fff;
+    background-color: #0c5977;
+    margin-top: 10px;
+}
+label{
+
+    padding:0 0  10px 0;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;   
+    background-color: #c5eaf8; 
+}
+input:focus{
+    background-color: skyblue;
+}
+.sp-lf{
+    padding-left: 15%;
+}
+
+table{
+    margin-top:10px ;
+    text-align: center;
+    border: 1px solid black;
+    border: solid skyblue;
+}
+.table-b td{
+    text-align: left;
+    line-height: 18px;
+    padding:4px 0 4px 10px;
+}
+table .data{
+    border-right: 1px solid black;
+}
+
+table .space{
+    padding:15px 40px;
+}
+.table-second{
+    
+    background-color: white;
+}
+#proposed{
+    width: 78%;
+}
+ #address{
+    width:88% ;
+}
+#phone, #id-no, #birthday, #security, #occupation{
+    width: 35%;
+}
+#email{
+     width: 38%;
+
+}
+
+#unit, #annual-pri{
+    width: 40%;
+}
+#cash{
+    width: 80%;
+}
+#premium{
+    width: 78%;
+}
+
+
+.end-dsp{
+    margin-top: 20px; 
+    width:95%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.terms{
+    
+    width: 45%;
+}
+.sign{
+    width: 45%;
+    text-align: right;
+}
+.sign input{
+    width: 70%;
+}
+.terms p{
+    font-size: 12px;
+    line-height:12px ;
+}

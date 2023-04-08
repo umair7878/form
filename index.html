@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is online application.You can add about bio-data">
+    <meta name="keywords" content="form , application form, bio-data, source about data">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Form Project</title>
+</head>
+<body>
+    <form >
+        <h1 class="title">Application Form</h1>
+        <!--General Information-->
+        <div class="info">
+        <h2> A. General Questions</h2>
+        <label for="proposed">Proposed Insured's Name: </label>
+        <input type="text" name="proposed" id="proposed" placeholder="Muhammad Umair">
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <label class="sp-lf" for="gender">Gender</label>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        <br>
+        <label for="address">Address: </label>
+        <input type="text" name="address" id="address">
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="Number" name="phone" placeholder="0332-3018290" id="phone">
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" placeholder="officalmuhammadumair@gmail.com" id="email">
+        <br>
+        <label for="id-no">ID Number: </label>
+        <input type="tel" minlength="11" placeholder="3038" maxlength="11" id="id-no">
+        <label  for="security">Social Security Number: </label>
+        <input type="tel" id="security" minlength="11" maxlength="11">
+        <br>
+        <label for="status"> Status</label>
+        <input type="radio" name="status" id="single">
+        <label for="single">Single</label>
+        <input type="radio" name="status" id="married">
+        <label for="married">Married</label>
+        <input type="radio" name="status" id="devorced">
+        <label for="devorced">Devorced</label>
+        <input type="radio" name="status" id="others">
+        <label for="others">Others</label>
+        <br>
+        <label for="occupation">Occupation: </label>
+        <input type="text" name="occupation" id="occupation"> 
+        <label for="retiree">Are you a reatiree?</label>
+        <input type="radio" name="retiree" id="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="retiree" id="no">
+        <label for="no">No</label>
+        </div>
+        <!--Health coverage-->
+        
+        <h2> B. Type of Health Coverage</h2>  
+        
+        <div class="health">
+        <table class="table-b"  width="90%">
+            <tr>
+            <td class="data">
+                <label for="employee">Employee</label>
+                <input type="radio" name="employee" id="em-yes">
+                <label for="em-yes">Yes</label>
+                <input type="radio" name="employee" id="em-no">
+                <label for="em-no">No</label>
+                <br>
+                <label for="plain">Plain Choice</label>
+                
+            </td>
+                
+            <td class="data">
+                <label for="spouse">Spouse</label>
+                <input type="radio" name="employee" id="sp-yes">
+                <label for="sp-yes">Yes</label>
+                <input type="radio" name="employee" id="sp-no">
+                <label for="sp-no">No</label>
+                <br>
+                <label for="plain">Plain Choice</label>     
+            </td>    
+            <td>
+                <label for="employee">Children</label>
+                <input type="radio" name="employee" id="ch-yes">
+                <label for="ch-yes">Yes</label>
+                <input type="radio" name="employee" id="ch-no">
+                <label for="ch-no">No</label>
+            <br>
+                <label for="plain">Plain Choice</label>    
+            </td>    
+            </tr>
+        </table>        
+        <p>Complete if Spouses/Children are Proposed Insurance:</p>
+   
+        <table class="table-second" border=" skyblue"  width="100%" >
+            <tr>
+                <th>Name</th>
+                <th>SSN No.</th>
+                 <th>Relation to proposed Insend</th>
+                <th>Birth Date</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+            </tr>
+            <tr>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+            </tr>
+            <tr>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+            </tr>
+            <tr>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+            </tr>
+            <tr>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+                <td class="space"> </td>
+            </tr>
+        </table>
+    </div>
+   
+        <h2>
+            C. The Policy
+        </h2>
+        <!--The Policy -->
+        <div class="policy">
+
+            <label for="unit">Units: </label>
+            <input type="text" name="unit" id="unit">
+            <label for="annual-pri">Annual Premium: </label>
+            <input type="text" name="" id="annual-pri">
+            <br>
+        <label for="pay">Payment Mode:</label>
+        <input type="radio" name="pay" id="annual">
+        <label for="annual">Annual</label>
+        <input type="radio" name="pay" id="semi">
+        <label for="semi">Semi-Annual</label>
+        <input type="radio" name="pay" id="monthly">
+        <label for="monthly">Monthly PAT <sub>(complete PAT card)</sub></label>
+        <br>
+        <label for="cash">Cash with Application: $</label>
+        <input type="text" class="large" name="text" id="cash">
+        <br>
+        <label for="premium">Planned modal premium: $</label>
+        <input type="text" name="text" id="premium">
+
+    </div>
+    <div class="end-dsp">
+
+        <div class="terms">
+            <h5>Terms & Condition</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti eligendi quibusdam qui consectetur tempore hic a tempora cupiditate necessitatibus.</p>
+        </div>
+
+        <div class="sign">
+            <label for="sign">Signature</label>
+            <input type="text" name="sign" id="sign">
+            <br>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+        </div>
+    </div>
+   
+   
+   
+   
+   
+    </form>
+</body>
+</html>
